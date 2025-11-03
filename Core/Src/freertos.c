@@ -145,7 +145,7 @@ void StartDefaultTask(void *argument)
     oled_show_string(10, 0, (uint8_t*)"123", OLED_FONT_6X8);
 	 oled_show_string(10, 16, (uint8_t*)"123", OLED_FONT_6X8);
 	 oled_show_string(10, 32, (uint8_t*)"123", OLED_FONT_6X8);
-	oled_update_all();//必须要更新屏幕
+	oled_update_all();//必须要更新屏幕123
 
   /* Infinite loop */
   for(;;)
